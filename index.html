@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Mill</title>
+<style>
+  :root { --bg:#f7f7f5; --card:#ffffff; --text:#1d1d1f; --muted:#5f6368; --accent:#7c3aed; --line:#e5e5e5; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141416; --card:#1e1e22; --text:#ececf1; --muted:#a1a1aa; --accent:#a78bfa; --line:#2e2e33; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI","Noto Sans Thai",sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:56px 16px 72px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:32px 28px; }
+  h1 { margin:0 0 4px; font-size:30px; }
+  .tag { color:var(--accent); font-weight:600; margin:0 0 20px; }
+  h2 { font-size:18px; margin:28px 0 8px; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); }
+  ul { padding-left:20px; margin:8px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:28px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Hermes Mill</h1>
+    <p class="tag">A personal AI assistant for one person</p>
+
+    <p>Hermes Mill is a private, single-user assistant that runs on its owner's own computer
+    (built on the open-source Hermes Agent). It is not a public product and is not offered to other users.</p>
+
+    <h2>What it does with Google</h2>
+    <ul>
+      <li>Reads and updates the owner's own Google Sheets (work logs and personal records).</li>
+      <li>Finds and opens the owner's own files in Google Drive.</li>
+      <li>Searches, summarizes, labels and drafts the owner's own Gmail; sends only after the owner approves each message.</li>
+      <li>Every change it makes is requested by the owner.</li>
+    </ul>
+
+    <h2>ภาษาไทย</h2>
+    <p>Hermes Mill คือผู้ช่วย AI ส่วนตัวที่ใช้งานคนเดียว รันบนคอมพิวเตอร์ของเจ้าของเอง
+    ใช้ Google Sheets, Google Drive และ Gmail ของเจ้าของเท่านั้น (ส่งอีเมลเฉพาะเมื่อเจ้าของอนุมัติ) ไม่ได้เปิดให้บุคคลอื่นใช้งาน</p>
+
+    <footer class="muted">
+      <a href="privacy.html">Privacy Policy / นโยบายความเป็นส่วนตัว</a>
+    </footer>
+  </div>
+</main>
+</body>
+</html>
